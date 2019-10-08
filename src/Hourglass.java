@@ -24,6 +24,9 @@ public class Hourglass {
 					System.out.print(" ");
 				}
 				System.out.print("\\");
+				for(int k = 1; k <= -2 * MAX + 34; k++) {
+					System.out.print(":");
+				}
 				System.out.println("/");
 		}
 	}
