@@ -18,7 +18,7 @@
 
 public class Hourglass {
 	public static final int LINES /* of the glass */ = 4;
-	public static final int LENGTH = 2 * LINES + 2;
+	public static final int LENGTH /* # of quotation marks */ = 2 * LINES + 2;
 	public static void main(String[] args) {
 		topLine();
 		topBody();
