@@ -1,9 +1,23 @@
-/* print out top part of hour glass. Print out top hour glass body. Print out center of hour glass. Print out bottom hour glass body. Print out bottom of hour glass body.
-
+/* CHANGE CLASS CONSTANT "LINES" FOR DIFFERENT OUTPUT.
+ * call public class
+ * call class constants
+ * call static methods
+ * write code for the line
+ * write code for the top glass
+ 	*create spacing
+ 	*create forward slash
+ 	*create colons
+ 	*create back slash
+ 	*create center of hour glass
+ * write code for the bottom glass
+ 	*create spacing
+ 	*create back slash
+ 	*create colons
+ 	*create forward slash
 */
 
 public class Hourglass {
-	public static final int LINES /* of the glass */ = 1;
+	public static final int LINES /* of the glass */ = 4;
 	public static final int LENGTH = 2 * LINES + 2;
 	public static void main(String[] args) {
 		topLine();
